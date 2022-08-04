@@ -1,0 +1,17 @@
+{
+    "name": "nasimtelecom/simotel-json-to-api",
+    "authors": [
+        {
+            "name": "Hossein Yaghmaee",
+            "email": "hosseinyaghmaee@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    }
+}
