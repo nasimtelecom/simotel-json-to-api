@@ -28,6 +28,7 @@ class MainController
         $api=[];
         foreach ($items as $item) {
             $capi=[];
+            $capi["default_data"]=[];
             $capi["address"]=$item["name"];
             $capi["method"]=$item["request"]["method"];
             $name = str_replace("/", "_", $item["name"]);
